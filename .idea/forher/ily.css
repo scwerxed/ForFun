@@ -1,0 +1,49 @@
+.container {
+    margin-top: 20vh;;
+}
+
+body {
+    font-size: 60px;
+    font-family: "Agency FB", serif;
+    background-color: #010a01;
+
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #ff668c,
+        0 0 20px #ff768c,
+        0 0 15px #ff444c,
+        0 0 10px #ff393c;
+
+    }
+
+}
+
+.glowingText {
+    animation: flicker 1.2s infinite alternate;
+    background-color: transparent;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Segoe Script";
+}
+
+
+h2 {
+    color: white;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-weight: 600;
+
+}
+
